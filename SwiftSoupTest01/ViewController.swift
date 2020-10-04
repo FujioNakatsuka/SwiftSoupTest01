@@ -14,7 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         do {
-          let html = "<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p><a class='mylink'  id='applelink' href='http://applel.com'>Link to apple's website</a><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li></ul></body></html>"
+//          let html = "<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p><a class='mylink'  id='applelink' href='http://applel.com'>Link to apple's website</a><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li></ul></body></html>"
+            
+            let html = "<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p><a class='mylink'  id='kaigohoken-newslink' href='http://www.roken.or.jp/archives/category/kaigohoken-news'>Link to  website</a><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li></ul></body></html>"
+            
+            
+            
+            
             
             let doc: Document = try SwiftSoup.parse(html)
             
